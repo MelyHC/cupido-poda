@@ -7,6 +7,9 @@ import WhatIs from '../sections/WhatIs';
 import Feature from '../sections/Feature';
 import Timeline from '../sections/Timeline';
 import '../styles/Home.css';
+import Reputation from '../sections/Reputation';
+import Privacy from '../sections/Privacy';
+import Technology from '../sections/Technology';
 
 const Home = () => {
   return (
@@ -17,7 +20,10 @@ const Home = () => {
       <Shift />
       <WhatIs />
       <Feature />
-      <Timeline/> 
+      <Timeline />
+      <Reputation />
+      <Privacy />
+      <Technology />
     </>
   )
 }
