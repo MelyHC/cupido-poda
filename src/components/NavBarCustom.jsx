@@ -8,7 +8,7 @@ const NavBarCustom = () => {
         <Navbar.Brand href='#home'>
           <img
             alt=''
-            src='src/assets/react.svg'
+            src='cupido-poda/src/assets/react.svg'
             width='30'
             height='30'
             className='d-inline-block align-top'
