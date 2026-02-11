@@ -26,5 +26,6 @@ export default defineConfig({
         icons: manifestIcons,
       }
     })
-  ]
+  ],
+  base: 'https://melyhc.github.io/cupido-poda'
 })
