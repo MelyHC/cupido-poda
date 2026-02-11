@@ -15,11 +15,11 @@
   background-color: var(--base-inverted);
 }
 
-.bg-primary {
+.bg-green {
   background-color: var(--primary);
 }
 
-.bg-secondary {
+.bg-pink {
   background-color: var(--secondary);
 }
 

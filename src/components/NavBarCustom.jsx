@@ -1,4 +1,5 @@
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
+import '../styles/components.css'
 
 const NavBarCustom = () => {
   return (
