@@ -3,7 +3,7 @@ import CardCustom from '../components/CardCustom';
 
 const Problem = () => {
   return (
-    <Container className='h-100vh' fluid="md">
+    <Container>
       <h4 className='my-5'>El problema no es conectar personas. Es confiar.</h4>
       <p>
         Durante años las apps sociales optimizaron lo mismo: velocidad, volumen y alcance.
