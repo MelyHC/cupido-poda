@@ -18,6 +18,16 @@
   padding: 0;
 }
 
+.btn:first-child:active {
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
+
+:not(.btn-check)+.btn:active {
+  background-color: var(--secondary);
+  border-color: var(--secondary);
+}
+
 .container {
   max-width: 800px;
 }

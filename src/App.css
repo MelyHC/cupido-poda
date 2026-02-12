@@ -47,14 +47,26 @@
 .btn-pink {
   background-color: var(--secondary);
   border: solid 1px var(--secondary);
-} 
+}
 
-.btn-green:hover {
+.outline-green {
+  background-color: initial;
+  border: solid 1px var(--primary);
+  color: var(--primary);
+}
+
+.btn-green:hover,
+.btn-green:active,
+.btn-green:focus-visible,
+.outline-green:hover,
+.outline-green:active {
   background-color: #258386;
   border: solid 1px #258386;
 }
 
-.btn-pink:hover {
+.btn-pink:hover,
+.btn-pink:active,
+.btn-pink:focus-visible {
   background-color: #7c2379;
   border: solid 1px #7c2379;
 }

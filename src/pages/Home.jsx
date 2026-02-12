@@ -12,6 +12,7 @@ import Privacy from '../sections/Privacy';
 import Technology from '../sections/Technology';
 import Comparison from '../sections/Comparison';
 import Promise from '../sections/Promise';
+import Vision from '../sections/Vision';
 import YellowPaper from '../sections/YellowPaper';
 import FooterCustom from '../components/FooterCustom';
 import CTA from '../sections/CTA';
@@ -31,6 +32,7 @@ const Home = () => {
       <Technology />
       <Comparison />
       <Promise />
+      <Vision />
       <YellowPaper />
       <CTA />
       <FooterCustom />

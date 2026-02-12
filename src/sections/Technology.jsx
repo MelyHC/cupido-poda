@@ -4,9 +4,9 @@ import CardCustom from '../components/CardCustom';
 const Technology = () => {
   return (
     <Container>
-      <h4 className='my-5'>Tecnología que no invade. Solo prueba.</h4>
-      <h6 className='mb-5'>Trust Toke se apoya en Syscoin para lograr verificabilidad real sin sacrificar privacidad, escala ni soberanía del usuario.</h6>
-      <article className='d-flex row mb-5'>
+      <h4 className='my-5'><span className='text-green'>Tecnología</span> que no invade. Solo <span className='text-green'></span>prueba.</h4>
+      <h6><span className='text-green'>Trust Toke</span> se apoya en Syscoin para lograr verificabilidad real sin sacrificar <span className='text-pink'>privacidad</span>, escala ni soberanía del usuario.</h6>
+      <article className='d-flex row my-4'>
         <CardCustom
           title='PoDA (Proof of Data Availability)'
           body='Prueba que un dato existe y no fue alterado sin publicarlo en blockchain.' />
@@ -27,8 +27,8 @@ const Technology = () => {
           addbody='UX realista para una app social.' />
       </article>
       <p>
-        No pedimos confianza.
-        <br />Construimos evidencia.
+        No pedimos <span className='text-pink'>confianza</span>.
+        <br /><span className='text-green'>Construimos</span> evidencia.
       </p>
     </Container>
   )

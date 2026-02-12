@@ -3,10 +3,10 @@ import { Container } from 'react-bootstrap';
 const Reputation = () => {
   return (
     <Container>
-      <h4 className='my-5'>Reputación sin rankings. Historial sin espectáculo.</h4>
+      <h4 className='my-5'>Reputación <span className='text-pink'>sin rankings</span>. Historial <span className='text-green'>sin espectáculo</span>.</h4>
       <p>
         Trust Toke no construye reputación como un sistema de “mejor persona”.
-        <br />La construye como un costo histórico.
+        <br />La construye como un <span className='text-green'>costo histórico</span>.
       </p>
       <p>
         Una wallet con más señales no es superior.
@@ -21,9 +21,9 @@ const Reputation = () => {
           <li>Huellas no borrables</li>
         </ul>
       </article>
-      <p><b className='text-pink'>
+      <p><b>
         El sistema no afirma que seas confiable.
-        <br />Afirma que tu presencia no es gratuita.
+        <br />Afirma que <span className='text-pink'>tu presencia</span> no es gratuita.
       </b></p>
     </Container>
   )
