@@ -4,9 +4,9 @@ const Hero = () => {
   return (
     <Container className='d-flex row text-center mx-auto align-items-center'>
       <div className='d-flex row my-5 py-5'>
-        <h1 className='title my-5'>La confianza no se declara. <span className='text-green'>Se construye</span>.</h1>
-        <h3 className='my-5'>Trust Toke es una capa de señales humanas verificables para apps sociales y de citas.
-          Sin verificaciones invasivas. Sin rankings. Sin perfiles que <span className='text-pink'>“prometen”</span>.</h3>
+        <h1 className='title my-5'>La <span className='text-green'>confianza</span> no se declara. Se <span className='text-pink'>construye</span>.</h1>
+        <h3 className='my-5'>Trust Toke es una capa de <span className='text-green'>señales</span> humanas <span className='text-pink'>verificables</span> para apps sociales y de citas.
+          Sin verificaciones invasivas. Sin rankings. Sin perfiles que <span className='text-green'>“prometen”</span>.</h3>
       </div>
       <div>
         <p>

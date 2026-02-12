@@ -3,7 +3,7 @@ import { Container } from 'react-bootstrap';
 const Shift = () => {
   return (
     <Container>
-      <h4 className='my-5'>No cambiamos la interfaz. Cambiamos el modelo de confianza.</h4>
+      <h4 className='my-5'>No cambiamos la interfaz. Cambiamos el modelo de <span className='text-green'>confianza</span>.</h4>
       <p>
         Las plataformas tradicionales te piden algo absurdo:
         <span className='text-green'> “Confía en la app”.</span>
@@ -11,7 +11,7 @@ const Shift = () => {
       <p>
         Trust Toke cambia esa lógica:
         <br />
-        <b className='text-pink'>Confía en la prueba criptográfica.</b>
+        <b>Confía en la <span className='text-pink'>prueba criptográfica</span>.</b>
       </p>
       <ul>
         <li>No verificamos personas.</li>

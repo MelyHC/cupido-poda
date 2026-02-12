@@ -4,7 +4,7 @@ import CardCustom from '../components/CardCustom';
 const Feature = () => {
   return (
     <Container>
-      <h4 className='my-5'>Señales simples. Acciones reales.</h4>
+      <h4 className='my-5'><span className='text-green'>Señales</span> simples. Acciones <span className='text-pink'>reales</span>.</h4>
       <article className='d-flex row mb-5'>
         <CardCustom
           title='Trust Toke de Entrada'
@@ -22,8 +22,8 @@ const Feature = () => {
         />
       </article>
       <p>
-        En Trust Toke, el comportamiento no se premia con fama.
-        <br />Se registra como historial.
+        En <span className='text-green'>Trust Toke</span>, el comportamiento no se premia con <span className='text-pink'>fama</span>.
+        <br />Se registra como <span className='text-green'>historial</span>.
       </p>
     </Container>
   )
