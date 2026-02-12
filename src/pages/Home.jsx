@@ -14,6 +14,7 @@ import Comparison from '../sections/Comparison';
 import Promise from '../sections/Promise';
 import YellowPaper from '../sections/YellowPaper';
 import FooterCustom from '../components/FooterCustom';
+import CTA from '../sections/CTA';
 
 const Home = () => {
   return (
@@ -31,6 +32,7 @@ const Home = () => {
       <Comparison />
       <Promise />
       <YellowPaper />
+      <CTA />
       <FooterCustom />
     </>
   )
