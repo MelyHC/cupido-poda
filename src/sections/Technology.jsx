@@ -6,7 +6,7 @@ const Technology = () => {
     <Container>
       <h4 className='my-5'>Tecnología que no invade. Solo prueba.</h4>
       <h6 className='mb-5'>Trust Toke se apoya en Syscoin para lograr verificabilidad real sin sacrificar privacidad, escala ni soberanía del usuario.</h6>
-      <article>
+      <article className='d-flex row mb-5'>
         <CardCustom
           title='PoDA (Proof of Data Availability)'
           body='Prueba que un dato existe y no fue alterado sin publicarlo en blockchain.' />

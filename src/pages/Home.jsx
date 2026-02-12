@@ -10,6 +10,10 @@ import '../styles/Home.css';
 import Reputation from '../sections/Reputation';
 import Privacy from '../sections/Privacy';
 import Technology from '../sections/Technology';
+import Comparison from '../sections/Comparison';
+import Promise from '../sections/Promise';
+import YellowPaper from '../sections/YellowPaper';
+import FooterCustom from '../components/FooterCustom';
 
 const Home = () => {
   return (
@@ -24,6 +28,10 @@ const Home = () => {
       <Reputation />
       <Privacy />
       <Technology />
+      <Comparison />
+      <Promise />
+      <YellowPaper />
+      <FooterCustom />
     </>
   )
 }

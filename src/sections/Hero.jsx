@@ -14,8 +14,8 @@ const Hero = () => {
           Porque en los espacios donde todo es gratis, el daño también lo es.
         </p>
         <article className='my-4'>
-          <Button className='btn-green mx-3'>Acceso anticipado</Button>
-          <Button className='btn-pink mx-3'>Leer paper</Button>
+          <Button className='btn-green mx-3' size='lg'>Acceso anticipado</Button>
+          <Button className='btn-pink mx-3' size='lg'>Leer paper</Button>
         </article>
         <p>Built on Syscoin · zk-Proofs · Privacy by Design · Bitcoin-grade Security</p>
       </div>
